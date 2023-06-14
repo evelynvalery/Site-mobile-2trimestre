@@ -35,3 +35,11 @@ h1 {
     background-position: center;
     display: inline-block;
 }
+
+.lista-menu {
+    display: none;
+    }
+
+.container__botao:checked ~ .lista-menu {
+        display: block;
+        }
